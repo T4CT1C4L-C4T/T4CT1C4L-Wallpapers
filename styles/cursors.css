@@ -1,0 +1,26 @@
+/* ENTIRE DOCUMENT */
+* {
+    cursor: var(--normal-cur);
+}
+
+/* GENERIC */
+.search-input {
+    cursor: var(--select-cur);
+}
+
+.pages,
+.logo,
+.search-result-btn:hover,
+.clear-search-button:hover,
+.cat-link,
+.category-title,
+.images-per-row-content:hover,
+.img,
+.return-button,
+a {
+    cursor: var(--link-cur);
+}
+
+.full-size-img:hover {
+    cursor: var(--dot-cur);
+}

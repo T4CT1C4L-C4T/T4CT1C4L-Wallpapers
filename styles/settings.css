@@ -1,0 +1,14 @@
+:root {
+    /* SITE AESTHETICS */
+    --web-background: url("../images/site/background.jpg");
+    --backdrop: url("../images/site/backdrop.gif");
+    --background-blur: blur(5px);
+
+    /* CURSORS */
+    --normal-cur: url("../images/cursors/normal.cur"), auto;
+    --dot-cur: url("../images/cursors/dot.cur"), auto;
+    --link-cur: url("../images/cursors/link.cur"), auto;
+    --select-cur: url("../images/cursors/select.cur"), auto;
+    --move-cur: url("../images/cursors/move.cur"), auto;
+    --help-cur: url("../images/cursors/help.cur"), auto;
+}

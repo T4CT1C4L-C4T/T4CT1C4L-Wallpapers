@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>T4CT1C4L-C4T Wallpapers - Home</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="images/site/pageicon.jpg">
+
+        <!-- JQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!-- Plugins -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/is-in-viewport/3.0.4/isInViewport.min.js"></script>
+
+        <!-- Libraries -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mousetrap/1.6.5/mousetrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tsparticles/1.29.2/tsparticles.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+        <!-- Module Scripts -->
+        <script src="assets/img_module.js"></script>
+
+        <!-- JavaScripts -->
+        <script src="js/common_elements.js"></script>
+        <script src="js/image_handler.js"></script>
+        <script src="js/organizer.js"></script>
+        <script src="js/waypoints.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/audio_handler.js"></script>
+        <script src="js/notification_handler.js"></script>
+        <script src="js/particle_system.js"></script>
+        <script src="js/animation_handler.js"></script>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="styles/settings.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/cursors.css">
+        <link rel="stylesheet" href="styles/particles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.21.0/css/components/notify.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    </head>
+
+    <body>
+        <!-- MAIN CONTENT -->
+        <div class="container">
+            <aside class="current-page">&gt &gt Welcome to the Home Page &lt &lt</aside>
+
+            <!-- SEARCH BAR -->
+            <div class="search-bar" id="search">
+                <form action="" id="search-form">
+                    <input class="search-input" type="text" placeholder="Search for a wallpaper..." autocomplete="on">
+                    <button class="clear-search-button" type="reset" form="search-form">CLEAR</button>
+                </form>
+                <div class="search-box" hidden>
+                    <ul class="search-contents">
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="line-divider">
+            <!-- TABLE OF CONTENTS -->
+            <nav class="table-of-contents" id="table-contents">
+                <h3 class="toc-header" style="font-size: 40px; background: linear-gradient(to left, transparent 98%, cyan)">Wallpaper Sections:</h3>
+                <ul class="table-of-contents-container" style="list-style-type: none;"></ul>
+            </nav>
+            
+            <!-- FULL-SIZE IMAGE OVERLAY -->
+            <div class="full-size-overlay">
+                <video autoplay loop muted playsinline src="" class="full-size-img" alt="none">
+            </div>
+
+            <hr class="line-divider">
+            <!-- DROP-DOWN MENU -->
+            <div class="drop-down-menu">
+                <label for="images-per-row" class="drop-down-text">Images Per Row:</label>
+                <select name="images-per-row" class="images-per-row-content" id="iprc">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+
+            <hr class="line-divider">
+            <!-- IMAGE CONTENTS -->
+
+            <p class="return-button" href="#top">Return To The Top</p>
+        </div>
+        
+        <script>
+            AOS.init({
+                // Global settings:
+                disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+                startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+                initClassName: 'aos-init', // class applied after initialization
+                animatedClassName: 'aos-animate', // class applied on animation
+                useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+                disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+                debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+                throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+            });
+        </script>
+    </body>
+</html>
