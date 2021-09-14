@@ -3,7 +3,7 @@ $(document).ready(function () {
 
     // Particles
     tsParticles
-        .loadJSON("particle-background-0", "../assets/particles.json")
+        .loadJSON("particle-background-0", "./assets/particles.json")
         .then((container) => {
         })
         .catch((error) => {
@@ -11,7 +11,7 @@ $(document).ready(function () {
         });
 
     tsParticles
-        .loadJSON("particle-background-1", "../assets/particles.json")
+        .loadJSON("particle-background-1", "./assets/particles.json")
         .then((container) => {
         })
         .catch((error) => {
