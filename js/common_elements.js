@@ -16,7 +16,7 @@ $(document).ready(function () {
         <a href="index.html" class="pages">HOME</a>
         <a href="aboutpage.html" class="pages">ABOUT</a>
         <a href="minigamepage.html" class="pages">GAME</a>
-        <a href="https://github.com/T4CT1C4L-C4T" class="pages" target="_blank">GITHUB</a>
+        <a href="https://github.com/jon-chow" class="pages" target="_blank">GITHUB</a>
         <label class="clock">THURSDAY JANUARY 1ST 1970, 0:00:00 AM</label>
     </nav>
     `);
@@ -26,7 +26,7 @@ $(document).ready(function () {
         <div class="bottombar" id="bottom">
             <div id="particle-background-1"></div>
             <footer class="termsandconditions">TERMS & CONDITIONS</footer>
-            <footer class="copyright">Copyright © 2021 T4CT1C4L-C4T All Rights Reserved</footer>
+            <footer class="copyright">Copyright © 2022 Jon Chow All Rights Reserved</footer>
         </div>
     `);
 
