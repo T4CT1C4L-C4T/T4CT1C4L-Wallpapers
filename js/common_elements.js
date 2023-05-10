@@ -15,11 +15,11 @@ $(document).ready(function () {
         <img src="images/site/pageicon.jpg" alt="Taco cat website logo" class="logo">
         <a href="index.html" class="pages">HOME</a>
         <a href="aboutpage.html" class="pages">ABOUT</a>
-        <a href="minigamepage.html" class="pages">GAME</a>
         <a href="https://github.com/jon-chow" class="pages" target="_blank">GITHUB</a>
         <label class="clock">THURSDAY JANUARY 1ST 1970, 0:00:00 AM</label>
     </nav>
     `);
+    // <a href="minigamepage.html" class="pages">GAME</a>
 
     // BOTTOM BAR
     $("body").append(`
